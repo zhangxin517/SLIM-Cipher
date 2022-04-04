@@ -87,7 +87,7 @@ def str_xor(my_str1, my_str2):
 # 循环左移操作
 def left_turn(my_str, num):
     left_res = my_str[num:len(my_str)]
-    left_res = my_str[0:num] + left_res
+    left_res += my_str[0:num]
     return left_res
 
 
